@@ -78,7 +78,7 @@ const toggle = () => {
 .all-page {
   width: 100vw;
   height: 100vh;
-  background: url("../../assets/Furina.jpg") no-repeat fixed;
+  background: url("@/assets/common/Furina.jpg") no-repeat fixed;
   background-size: cover;
 
   .card-container {
