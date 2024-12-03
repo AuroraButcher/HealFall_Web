@@ -4,8 +4,8 @@
 ├── api: 网络请求
 ├── assets: 静态资源
 ├── components: 组件
-├── icons: 图标
-├── international: 国际化
+├── directive: 指令
+├── language: 国际化
 ├── layout: 布局
 ├── mixin: 混入
 ├── router: 路由

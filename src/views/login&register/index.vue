@@ -5,13 +5,13 @@
       <div class="bigger-card" :class="{active:!isLogin}">
         <!--登录-->
         <div class="bigger-card-login" v-if="isLogin">
-          <div class="bigger-card-login__title">欢迎回来</div>
+          <div class="bigger-card-login__title">{{ $t('login.title') }}</div>
           <div class="bigger-card-login__form">
             <el-form label-width="auto">
-              <el-form-item label="用户名">
+              <el-form-item :label="$t('login.account')">
                 <el-input></el-input>
               </el-form-item>
-              <el-form-item label="密码">
+              <el-form-item label="$t('login.password')">
                 <el-input></el-input>
               </el-form-item>
             </el-form>

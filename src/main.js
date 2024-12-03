@@ -6,15 +6,22 @@ import router from './router'
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 // axios
-// import axios from 'axios';
+import axios from 'axios';
 // pinia
-// import { createPinia } from 'pinia';
+import { createPinia } from 'pinia';
+// i18n
+import i18n from "@/language/index.js";
 
 const app = createApp(App);
-app.use(router);
-app.use(ElementPlus);
-// app.use(createPinia());
-// app.config.globalProperties.$axios = axios;
 
+app.use(router);
+
+app.use(ElementPlus);
+
+app.config.globalProperties.$axios = axios;
+
+app.use(createPinia());
+
+app.use(i18n);
 
 app.mount('#app')
