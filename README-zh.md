@@ -15,6 +15,7 @@
 └── views: 页面
 ```
 # 插件使用说明
++ `animate.css` ：动画库
 + `ant-design-vue`: UI库
 + `axios`: 网络请求
 + `clipboard`: 复制到剪贴板
